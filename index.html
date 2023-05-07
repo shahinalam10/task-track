@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keep data -ProgrammingHouse</title>
+    <link rel="icon" href="./img/to-do-list.png">
+    <!--css connection-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--bootstrap cdn connect-->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./js/bootstrap.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: rgb(22, 28, 42)">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 mx-auto ">
+                <div class="card p-3">
+                    <div class="card-header btn-group mx-auto" style="background: white;">
+                        <img src="./img/logo.png" height="60px" width="60px"><h5 class="mt-3">To do list</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" id="inputarea" class="form-control" placeholder="Add your task" required>
+                            <button onclick="addTask()" class="btn btn-success px-4">Add</button>
+                        </div><br>
+                        <ol type="1" id="list-container" class="text-dark">
+                        
+                        </ol>  
+                    </div>
+                </div>
+                <div class="text-end"><i>&copy; &nbsp;<a href="https://www.facebook.com/mdshaheen.alam.5891">Md. Shahin Alam</i></a></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

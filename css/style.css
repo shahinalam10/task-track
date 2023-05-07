@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.card{
+    margin-top: 100px;
+}
+.card-body{
+    background-color: rgba(245, 245, 245, 0.363);
+}
+.input-group button{
+    background-color:rgb(221, 10, 133);
+    border-color: rgb(221, 10, 133);
+}
+.input-group button:hover{
+    background-color:rgb(221, 10, 133);
+    border-color: rgb(221, 10, 133);
+}
+.input-group input{
+    border-color: rgb(221, 10, 133);
+}
+ol li{
+    color:rgb(221, 10, 133) ;
+    font-size: 17px;
+    padding: 8px 0px 8px 0px;
+    user-select: none;
+    cursor: pointer;    
+}
+ol li span{
+    position:absolute;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+ol li span:hover{
+    color:white;
+    background-color: red;
+
+}
+.text-end{
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 0;
+    padding: 5px;
+    color: white;
+}
+.text-end a{
+    text-decoration: none;
+    color: white;
+}
+.text-end a:hover{
+    color: white;
+}
